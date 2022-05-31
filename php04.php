@@ -1,5 +1,6 @@
 <?php 
-function evenOrOdd($n){
+//function
+function isEven($n){
     if($n%2==0){
         return true;
 
@@ -9,7 +10,7 @@ function evenOrOdd($n){
 }
 
 $x = 19;
-if(evenOrOdd($x)){
+if(isEven($x)){
     echo "{x} is an Even number";}
 else{
     echo "{x} is an Odd number";}
