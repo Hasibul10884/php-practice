@@ -1,4 +1,5 @@
 <?php
+//logical operator
 $n = 7;
 if ($n % 2 == 0){
     echo "$n is an even number";
