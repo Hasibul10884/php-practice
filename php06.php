@@ -33,3 +33,24 @@ $a = "hello world";
 $a = null;
 var_dump($a);
 ?>
+
+<?php
+//array
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars);
+?>
+
+<?php 
+//object
+class car {
+    public $color;
+    public $model;
+    public function __construct($color, $model) {
+        $this->color = $color;
+        $this->model = $model;
+    }
+    public function message(){
+    return "My car is a " . $this->color . " " . $this->model . "!";
+    }
+}
+?>
