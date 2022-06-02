@@ -1,4 +1,5 @@
 <?php 
+//class method
 class Human{
     public $name;
     public $age;
@@ -21,13 +22,13 @@ class Dog{
     }
 }
 $h1 = new Human();
-$h1->name = "John";
-$h1->age = 20;
+$h1->name = "John";//set
+$h1->age = 20;//set
 $c1 = new Cat();
 $d1 = new Dog();
 
 $h1->sayHi();
 echo $h1-> name;
-echo $h1->age;
-$c1->sayHi();
+echo $h1->age;//get
+$c1->sayHi();//get
 $d1->sayHi();
